@@ -11,7 +11,7 @@ const rateValue = document.querySelector(".rate-value");
 
 let voices = [];
 
-let utterance = new SpeechSynthesisUtterance("Hello bruv, chill the FUCK out and structure the day.");
+let utterance = new SpeechSynthesisUtterance("Hello bruv, chill the FUCK out and structure the day now innit.");
 
 const hellloWorldTest = () => {
   speechSynthesis.speak(utterance);
